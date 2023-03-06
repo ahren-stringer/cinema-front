@@ -1,0 +1,73 @@
+.App{
+  background-color: #ecf0f1;
+  position: relative;
+}
+.Header{
+  padding: 15px 0;
+  background-color: #2980b9
+}
+.__container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.auth_wrapp{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.auth_inner{
+  width: 65%;
+}
+@media (max-width: 1200px){
+  .__container{
+    max-width: 90%;
+  }
+}
+@media (max-width: 650px){
+  .Header{
+    position: fixed !important;
+    width: 100%;
+    height: 60px;
+    z-index: 100 !important;
+    background-color: #2980b9 !important;
+  }
+  .main{
+    padding-top: 90px;
+  }
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

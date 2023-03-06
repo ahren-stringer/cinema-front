@@ -1,0 +1,19 @@
+.All{
+    display: flex;
+    justify-content: space-between;
+}
+.Navbar{
+    max-width: 300px;
+}
+.collection{
+    margin-left: 15px;
+}
+.Info{
+    max-width: 857px;
+}
+.favorite__title{
+    text-align: center;
+}
+.liked__nothing-title{
+    text-align: center;
+}
